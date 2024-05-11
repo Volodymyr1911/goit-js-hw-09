@@ -1,0 +1,77 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.sl-prev .sl-next .sl-close {
+    color: #ffff;
+}
+
+.sl-close .sl-prev .sl-next {
+    color: #ffff !important;
+}
+
+.gallery {
+    width: 1128px;
+    height: 648px;
+    padding: 24px 156px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px 24px;
+}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+}
+
+.sl-wrapper .sl-navigation button {
+    color: #ffff;
+}
+
+.sl-wrapper {
+    background-color: rgba(46, 47, 66, 0.8);
+    ;
+}
+
+.sl-wrapper button.sl-close,
+.sl-wrapper .sl-navigation button.sl-prev {
+    color: #ffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+    /* font-weight: 100; */
+
+}
+
+.sl-wrapper .sl-navigation button.sl-next {
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+}
